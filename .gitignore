@@ -1,0 +1,15 @@
+node_modules/
+dist/
+exports/
+test-results/
+playwright-report/
+.spec-workflow/
+
+*.log
+*.webm
+*.mp4
+
+.DS_Store
+Thumbs.db
+.env
+.env.*

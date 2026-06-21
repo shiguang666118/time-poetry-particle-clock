@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Orbitron:wght@400;500;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+    <title>Particle Watch</title>
+    <meta name="description" content="Interactive 3D particle watch with aurora-themed real-time clock display" />
+  </head>
+  <body>
+    <main id="app" data-theme="aurora">
+      <canvas id="scene" aria-label="Particle watch animation"></canvas>
+      <div id="cursorField" aria-hidden="true"></div>
+
+      <!-- Time HUD overlay -->
+      <div id="timeHud" aria-live="polite">
+        <div id="timeDigital"></div>
+        <div id="dateDisplay"></div>
+        <div id="weekday"></div>
+      </div>
+
+      <!-- Theme indicator -->
+      <div id="themeIndicator" aria-live="polite">AURORA</div>
+
+      <!-- Theme flash ring -->
+      <div id="themeFlashRing" aria-hidden="true"></div>
+
+      <!-- Ambient glow behind the watch -->
+      <div id="ambientGlow" aria-hidden="true"></div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
