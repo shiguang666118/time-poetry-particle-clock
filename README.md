@@ -1,5 +1,7 @@
 # Time Poetry Particle Clock
 
+[中文](./README.zh-CN.md) | English
+
 An interactive WebGL clock built with Three.js, Vite, and TypeScript.
 
 The clock uses live system time for the hands. Pointer movement across the dial tears open the particle field and reveals short Chinese poems about time, study, and self-discipline. The scattered particles use Chinese glyphs instead of generic dots.

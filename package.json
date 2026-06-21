@@ -1,7 +1,7 @@
 {
   "name": "time-poetry-particle-clock",
   "version": "1.0.0",
-  "description": "An interactive Three.js particle clock made of Chinese time poetry glyphs.",
+  "description": "Interactive Three.js particle clock made of Chinese time poetry glyphs.",
   "type": "commonjs",
   "directories": {
     "test": "tests"
